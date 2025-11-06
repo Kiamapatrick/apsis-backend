@@ -18,7 +18,7 @@ router.post('/', async (req, res) => {
 
     // 2️⃣ Send email via Resend API
     await resend.emails.send({
-      from: "Apsis Business Consulting Ltd <admin@apsisbusinessconsulting.com>",
+      from: "Apsis Business Consulting Ltd <admin@noventraadvisoryglobal.com>",
       to: process.env.EMAIL_TO,
       subject: `New message from ${name}: ${subject}`,
       text: `
