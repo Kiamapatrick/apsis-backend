@@ -18,7 +18,7 @@ const app = express();// redeploy test
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// Route
 const messagesRoute = require('./routes/messages');
 const clientsRoute = require('./routes/clients');
 const usersRoute = require('./routes/users'); 
